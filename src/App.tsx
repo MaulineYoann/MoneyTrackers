@@ -1,4 +1,5 @@
 import { useId, useState } from "react";
+import Card from "./Components/Card";
 
 function App() {
   const [amount, setAmount] = useState("");
@@ -62,6 +63,7 @@ function App() {
         ))
       }
     </ul>
+    <Card title="test" price={6} / >
   </div>
   )
 }
